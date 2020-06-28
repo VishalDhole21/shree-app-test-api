@@ -66,6 +66,8 @@ app.post("/uploadImg",(req,res)=>{
 	});
 });
 
+app.get('/',(req, res)=>res.send('Its working..!!!'));
+
 app.post("/updateImgPath",(req,res)=>{
 	const {billid,company, filename, storeId,seasonId}=req.body;
 	const filepath = `./public/uploads/${filename}`
