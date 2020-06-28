@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Server.js"
+    "dev": "node Server.js",
+    "start": "serve -s build"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,7 @@
     "nexmo": "^2.4.2",
     "node-fetch": "^2.6.0",
     "otp-generator": "^1.1.0",
+    "serve": "^11.3.2",
     "way2sms": "^1.0.2"
   }
 }
