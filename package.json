@@ -8,8 +8,7 @@
   "main": "Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node Server.js",
-    "start": "serve -s build"
+    "start": "node Server.js"
   },
   "keywords": [],
   "author": "",
