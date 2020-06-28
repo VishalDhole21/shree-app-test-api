@@ -544,5 +544,5 @@ app.post('/ProfitReport',(req,res)=>{
 	})
 })
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT?process.env.PORT:3000;
 app.listen(PORT,()=>{console.log(`server is listening on  port ${PORT}`)});
