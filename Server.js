@@ -8,12 +8,20 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const mysql      = require('mysql');
 const otpGenerator = require('otp-generator');
-
+/*
 const connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
   password : 'mySql@2019',
   database : 'ShreeApp'
+});
+*/
+
+const connection = mysql.createConnection({
+  host     : 'us-cdbr-east-02.cleardb.com',
+  user     : 'b9b92dc2330558',
+  password : 'dd0434bc',
+  database : 'heroku_dea73d9734a85f3'
 });
 
 connection.connect((err) =>{
